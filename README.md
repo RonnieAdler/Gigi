@@ -12,3 +12,14 @@ It can tell you about a person straight from Wikipedia.
 Integrated with NLP and Tkinter GUI.
 
 
+$pip install pyaudio
+
+if error shows like "portaudio.h" not available, install it first and then install pyaudio again.
+
+$pip install websockets
+
+
+
+
+
+

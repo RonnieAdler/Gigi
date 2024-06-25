@@ -1,16 +1,14 @@
 # GIGI 
 
-Welcome to Gigi, your personal AI assistant designed to make your Work Easier. It is a miniscule version of Alexa with a personal touch. Working on a project, and wanna do fast Google Search. This personal AI bot has you covered.
+Welcome to Gigi, your personal AI assistant designed to make your Work Easier. It is a minuscule version of Alexa with a personal touch. Working on a project, and wanna do fast Google Search. This personal AI bot has you covered.
 
 ## Features 🚀
 
-- **Wikipedia:** Ask for information about anything. Will tell you about a short and consise info. from wikipedia pages.
+- **Wikipedia:** Ask for information about anything. Will tell you about concise info. from Wikipedia pages.
 
-- **Activate GPT:** Option to activate Chat GPT.
+- **Jokes:** Tell hilarious Jokes straight from Python Libraries.
 
-- **Jokes:** Tell hilarious Jokes straight from python Libraries.
-
-- **Help:** Play a video for telling how to effectively use Gigi.
+- **Help:** Play a video to tell how to effectively use Gigi.
   
 ## How to Use 🤖
 
@@ -30,6 +28,8 @@ Welcome to Gigi, your personal AI assistant designed to make your Work Easier. I
 ---
 
 
+Features to be added:-
+
 $pip install pyaudio
 
 if error shows like "portaudio.h" not available, install it first and then install pyaudio again.
@@ -38,6 +38,8 @@ $pip install websockets
 
 ## Acknowledgements 🙌
 This project utilizes [OpenAI's GPT-3](https://www.openai.com/gpt-3/) for natural language understanding and response generation.
+
+- **Activate GPT:** Option to activate Chat GPT.
 
 
 

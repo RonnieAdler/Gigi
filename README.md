@@ -8,6 +8,8 @@ For Sample Video, check this: https://youtu.be/0PUWkgoir7w
 
 - **Wikipedia:** Ask for information about anything. Will tell you about concise info, from Wikipedia pages.
 
+- **Time:** Tells time.
+
 - **Jokes:** Tell hilarious Jokes straight from Python Libraries.
  
 -  **Youtube:** Play a song or search on youtube.

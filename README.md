@@ -40,13 +40,11 @@ Since Gemini API is having some problems in integration this is put on hold:
 
 Features to be added:-
 
-$pip install pyaudio
+Integration with Chatterbot
+References:-
+https://realpython.com/build-a-chatbot-python-chatterbot/
 
-if error shows like "portaudio.h" not available, install it first and then install pyaudio again.
 
-$pip install websockets
-
-This project utilizes [OpenAI's GPT-3](https://www.openai.com/gpt-3/) for natural language understanding and response generation.
 
 - **Activate GPT:** Option to activate Chat GPT.
 

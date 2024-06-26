@@ -20,6 +20,9 @@ For Sample Video, check this: https://youtu.be/0PUWkgoir7w
 2. Run the script using `python Kali.py`.
 3. Communicate with the assistant using natural language but starting with "Kali". Example:
           "Kali, About Justin Bieber."
+          "Kali, Time."
+          "Kali, Do you date."
+          "Kali, love."
           "Kali, Play Justin Bieber."
           "Kali, Jokes Please"
           "Kali, Help"

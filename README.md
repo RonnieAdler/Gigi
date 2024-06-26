@@ -1,6 +1,6 @@
 # Kali
 
-Welcome to Kali, your personal AI assistant designed to make your Work Easier. It is a minuscule version of Alexa with a personal touch. Working on a project, and wanna do fast Google Search. This personal AI bot has you covered.
+Welcome to Kali, your personal Chatbot designed to make your Work Easier. It is a minuscule version of Alexa with a personal touch. Working on a project, and wanna do fast Google Search. This personal AI bot has you covered.
 
 For Sample Video, check this: https://youtu.be/0PUWkgoir7w
 

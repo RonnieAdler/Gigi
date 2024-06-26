@@ -5,6 +5,9 @@ import pyttsx3
 import pywhatkit
 import wikipedia
 import pyjokes
+import vlc  
+import pafy 
+  
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
@@ -17,16 +20,16 @@ engine.runAndWait()
 
 
 def talk(text):
-    engine.say(text)
-    print(text)
+    # engine.say(text)
+    print("Gigi:",text)
     engine.runAndWait()
 
 
 def take_command():
     try:
         with sr.Microphone() as source:
-            print('listeni....')
-            print('ki')
+            print('listening....')
+            # print('ki')
             voice = listener.listen(source)
             command = listener.recognize_google(voice)
             command1 = command.lower()
@@ -52,11 +55,18 @@ def run_alexa():
         time = datetime.datetime.now().strftime('%H:%M %p')
         print(time)
         talk('Current time is' + time)
-    elif 'who is' or 'what is' or 'search' or 'search about' in command:
+    elif 'who' or 'what' or 'search' or 'search about' in command:
         person = command.replace('who is' or 'what is' or 'search about', '')
         info = wikipedia.summary(person, 1)
         print(info)
         talk(info)
+    elif 'help' in command:
+        url = ""
+        video = pafy.new(url) 
+        best = video.getbest() 
+        media = vlc.MediaPlayer(best.url) 
+        media.play() 
+        
     elif 'date' or 'love' in command:
         talk('I am in relationship with Jarvis')
     elif 'joke' in command:

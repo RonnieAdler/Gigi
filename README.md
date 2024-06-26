@@ -41,7 +41,6 @@ if error shows like "portaudio.h" not available, install it first and then insta
 
 $pip install websockets
 
-## Acknowledgements 🙌
 This project utilizes [OpenAI's GPT-3](https://www.openai.com/gpt-3/) for natural language understanding and response generation.
 
 - **Activate GPT:** Option to activate Chat GPT.

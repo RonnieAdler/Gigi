@@ -73,22 +73,15 @@ def run_alexa(command):
         time = datetime.datetime.now().strftime('%H:%M %p')
         print(time)
         talk("Current time is" + time)
+    elif "joke" in command:
+        talk(pyjokes.get_joke())
     elif "who" or "what" or "search" or "search about" or "about" in command:
         person = command.replace("who is" or "what is" or "search about", '')
         info = wikipedia.summary(person, 1)
         # print("Gigi: "+info)
         talk(info)
-    # elif "help" in command:
-    #     # url = ""
-    #     # video = pafy.new(url) 
-    #     # best = video.getbest() 
-    #     # media = vlc.MediaPlayer(best.url) 
-    #     # media.play() 
-        
     elif "date" or "love" in command:
         talk('I am in relationship with Jarvis')
-    elif "joke" in command:
-        talk(pyjokes.get_joke())
     else:
         talk('Please say the command again.')
     
